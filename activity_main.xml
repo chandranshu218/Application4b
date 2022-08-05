@@ -11,14 +11,12 @@
         android:id="@+id/buttonSelectedImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/select_image"/>
+        android:text="string/select_image"/>
 
     <ImageView
         android:id="@+id/selectedImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:contentDescription="select_image" />
-
-
+        android:contentDescription="@string/app_name" />
 </LinearLayout>
